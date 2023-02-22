@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import axios from "axios";
-import { BASE_URL } from "./access/accessToBackend.js";
+
 import Wrapper from "../wrappers/homeWrapper.js";
 import FormFeedback from "./FormFeedback.js";
 import { useAppContext } from "./context/AuthContext.js";
@@ -14,7 +14,7 @@ const Home = () => {
 
   const getFeedback = async () => {
     try {
-      const { data } = await axios.get(`${BASE_URL}/feedback`);
+      const { data } = await axios.get("/feedback");
       const { feedBacks } = data;
       setFeedbacks(feedBacks);
     } catch (error) {}

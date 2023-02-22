@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-import cors from "cors";
+
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import path from "path";
@@ -13,7 +13,7 @@ import feedbackRouter from "./routes/feedbackRouter.js";
 dotenv.config();
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-app.use(cors());
+
 app.use(express.json());
 
 app.use(express.static(path.resolve(__dirname, "./client/build")));
