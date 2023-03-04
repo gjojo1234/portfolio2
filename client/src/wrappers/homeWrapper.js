@@ -69,7 +69,9 @@ const Wrapper = styled.section`
     display: flex;
     justify-content: flex-start;
     padding-left: 5rem;
+    margin-bottom: 1rem;
   }
+
   .projectArticle {
     padding-left: 2rem;
     padding-bottom: 3rem;

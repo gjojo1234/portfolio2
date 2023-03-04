@@ -31,7 +31,7 @@ const Home = () => {
             <h1 className="homeTitle">
               <span className="span">Hi</span>, I am Jozef Genšor
             </h1>
-            <h2>I am into web development</h2>
+            <h2>I am into a web development</h2>
             <div className="btns">
               <Link to="/Skills" className="btn">
                 Skills
@@ -45,6 +45,26 @@ const Home = () => {
         </section>
         <section className="homeSection2">
           <h1 className="homeTitle2">my project</h1>
+          <div className="project1">
+            <aside>
+              <a
+                href="https://main--splendid-pothos-e2aedd.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="./img/shop.png"
+                  alt="react drinks"
+                  className="projectImage"
+                />
+              </a>
+            </aside>
+            <article className="projectArticle">
+              <h1>shop</h1>
+              <p>This is a trial page.</p>
+              <p>This page is created in React and Typescript</p>
+            </article>
+          </div>
           <div className="project1">
             <aside>
               <a
@@ -63,7 +83,7 @@ const Home = () => {
               <h1>drinks</h1>
               <p>This is a project about drinks.</p>
               <p>This is a trial page.</p>
-              <p>This page is made in React.</p>
+              <p>This page is created in React.</p>
             </article>
           </div>
         </section>
