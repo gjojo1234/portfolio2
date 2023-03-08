@@ -48,7 +48,7 @@ const Home = () => {
           <div className="project1">
             <aside>
               <a
-                href="https://main--splendid-pothos-e2aedd.netlify.app/"
+                href="https://trialshop.onrender.com/"
                 target="_blank"
                 rel="noreferrer"
               >
