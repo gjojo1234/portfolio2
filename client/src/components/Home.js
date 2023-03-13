@@ -31,7 +31,7 @@ const Home = () => {
             <h1 className="homeTitle">
               <span className="span">Hi</span>, I am Jozef Genšor
             </h1>
-            <h2>I am into a web development</h2>
+            <h2>I am learn a web development</h2>
             <div className="btns">
               <Link to="/Skills" className="btn">
                 Skills
@@ -62,7 +62,8 @@ const Home = () => {
             <article className="projectArticle">
               <h1>shop</h1>
               <p>This is a trial page.</p>
-              <p>This page is created in React and Typescript</p>
+              <p>On the Frontend i used: React and Typescript.</p>
+              <p>On the Backend i used: ExpressJS, NodeJS and MongoDB.</p>
             </article>
           </div>
           <div className="project1">
