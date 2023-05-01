@@ -48,6 +48,25 @@ const Home = () => {
           <div className="project1">
             <aside>
               <a
+                href="https://coffee-store-2mj6p8zi7-gjojo1234.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="./img/coffeeStore.png"
+                  alt="coffee store"
+                  className="projectImage"
+                />
+              </a>
+            </aside>
+            <article className="projectArticle">
+              <h1>Coffee Store</h1>
+              <p>This page is created in Next.js</p>
+            </article>
+          </div>
+          <div className="project1">
+            <aside>
+              <a
                 href="https://trialshop.onrender.com/"
                 target="_blank"
                 rel="noreferrer"
